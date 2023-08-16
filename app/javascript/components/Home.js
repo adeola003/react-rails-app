@@ -3,7 +3,9 @@ import { Link } from 'react-router-dom'
 
 const Home = () => {
   return (<>
-   <div>Home</div>
+   <div>
+    <h1>Hello! Welcom to your greeting App</h1>
+   </div>
     <Link to="/greeting">Go to Greeting</Link>
   </>
   )
